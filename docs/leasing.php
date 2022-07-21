@@ -8,7 +8,7 @@
 
     echo "<head><title>PESANAN CUSTOMER CAR LEASINGKU</head></title>";
     $fp = fopen("leasing.txt","a+");
-    fputs($fp,"$nama|$alamat|$email|$mobil|$tambah\n");
+    fputs($fp,"$nama|$alamat|$email|$mobil|$jaminan|$tambah\n");
     fclose($fp);
 
     echo "Terima Kasih<br>";
